@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@page { 
+	size: landscape;
+}
+
+html, body, .wrapper {
+	height: auto;
+}
+
+.section.result .container {
+    margin: 0 ;
+}
+
+.wrapper, .sortable {
+    width: 276mm;
+    margin: 0;
+}
+
+.sortable {
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.sortable tr td {
+    padding: 3px 5px 5px;
+    font-size: 11px;
+    border-right: 1px solid #c6d5e1;
+    border-bottom: 1px solid #c6d5e1;
+    border-left: 1px solid #ffffff;
+    word-wrap: normal;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 22px;
+    width: auto;
+    overflow: auto;
+    text-overflow: unset;
+    white-space: normal;
+    word-wrap: break-word;
+    background: #ffffff;
+    vertical-align: top;
+    margin: 0;
+}
+
+.sortable td.first {
+   border-left: 1px solid #c6d5e1;
+}
+
+.sortable th.last {
+    border-right: 1px solid #c6d5e1;
+    box-sizing: border-box;
+}
+
+.sortable tr td, .sortable tr th {
+	page-break-inside: avoid;
+	box-sizing: border-box;
+}
+
+.sortable tr th {
+	font-size: 10px;
+	padding: 1px 2px 1px 2px;
+	box-sizing: border-box;
+	overflow: hidden;
+	overflow: auto;
+}
+.headDATE_CTRL, .headDATE_EXTENSION, .headTAKE_OFF_CTRL  {
+	width: 75px;
+	text-align: center!important;  
+}
+.headDATE_EXEC {
+	width: 75px;
+	text-align: left!important;
+}
+
+.DATE_EXEC, .DATE_CTRL, .DATE_EXTENSION, .TAKE_OFF_CTRL {
+	text-align: center!important;  
+}
+
+.headCTRL_FACE, .headEXECUTORS {
+	width: 110px;
+	box-sizing: border-box;
+}
+.CTRL_FACE, .EXECUTORS {
+	width: 110px;
+	box-sizing: border-box;
+}
+
+.headDATE_EXTENSION.valid {
+	border-right: 1px solid #c6d5e1;
+	box-sizing: border-box;
+}
+
+.headTAKE_OFF_CTRL.valid, .TAKE_OFF_CTRL.valid {
+	display: none;
+}

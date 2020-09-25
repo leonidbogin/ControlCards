@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@page { 
+/* 	size: landscape; */
+}
+html, body, .wrapper {
+	height: auto;
+	width: 276mm;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    
+}
+
+.section.card {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.modal-content {
+    display: block;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+    page-break-inside: avoid;
+}
+
+.section.card table td {
+	padding-bottom: 20px;
+}
+
+.section.card table.executors {
+    width: 100%!important;
+    table-layout: fixed!important;
+}
+
+.section.card table.executors td {
+	padding: 0 5px 0 0!important;
+	width: auto!important;
+	float: none;
+}
+
+.section.card table.executors td.last {
+	padding: 0!important;
+}
+
+.section.card h3 {
+	margin: 20px 0 20px 0;
+    font-size: 25px;
+    color: #00a063;
+    text-align: center;
+}
+
+.section.card .container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+	margin-top: 15px;
+}

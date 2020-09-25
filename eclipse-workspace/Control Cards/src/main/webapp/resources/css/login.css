@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'v_Battlestar';
+	src: url('../css/fonts/v_Battlestar/v_Battlestar.eot');
+	src: url('../css/fonts/v_Battlestar/v_Battlestar.eot?iefix') format('eot'),
+	url('../css/fonts/v_Battlestar/v_Battlestar.woff') format('woff'),
+	url('../css/fonts/v_Battlestar/v_Battlestar.ttf') format('truetype'),
+	url('../css/fonts/v_Battlestar/v_Battlestar.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+body { 
+  background: #41c17d; 
+  background: -webkit-linear-gradient(right, #41c17d, #40c27d);
+  background: -moz-linear-gradient(right, #41c17d, #40c27d);
+  background: -o-linear-gradient(right, #41c17d, #40c27d);
+  background: linear-gradient(to left, #41c17d, #40c27d);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.wrapper {
+	width: 450px;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.content {
+	position: absolute;
+  	top: 50%;
+  	width: 100%;
+  	margin-top: -59px;
+}
+
+.container {
+	float: left;
+	width: 100%;
+	height: 118px;
+ 	background: #FFFFFF;
+	padding: 0 0 20px 0; 
+ 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ 	box-sizing: border-box;
+ 	text-align: center;
+}
+
+.login {
+	width: 100%;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	box-sizing: border-box;
+	margin-top: 0px;
+}
+
+.login input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #e4e3e3;
+  width: 240px;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  float: left;
+  height: 46px;
+}
+
+.login button {
+	height: 46px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #47AE76;
+  width: 80px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  float: left;
+}
+
+ button.back {
+	height: 46px;
+ 	font-family: "Roboto", sans-serif;
+ 	 text-transform: uppercase;
+ 	 outline: 0;
+ 	 width: 80px;
+ 	 border: 0;
+ 	 padding: 15px;
+ 	 font-size: 14px;
+ 	 -webkit-transition: all 0.3 ease;
+	  transition: all 0.3 ease;
+	  cursor: pointer;
+	  float: left;
+    background: #888888;;
+    color: #ffffff;
+}
+
+.login button:hover, .login button:active, .login button:focus {
+  background: #40c27d;
+}
+
+ button.back:hover, button.back:active, button.back:focus {
+  background: #c0c0c0;
+}
+
+h1{
+	margin-top: 13px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	display: block;
+	color: #888888;
+	font-weight: bold;
+}
+
+.error-box {
+	float: left;
+	width: 100%;
+	height: 46px;
+    margin: 15px 0 0 0;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	padding: 14px 0 0 0;
+    box-sizing: border-box;
+}
+.error-box p {
+	text-align: center;
+	font-size: 18px;
+	color: #d45252;
+}
+
+.error {
+	background: #f3e3e3!important;
+}
+
+.hide {
+	display: none;
+}
